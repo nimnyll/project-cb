@@ -7,7 +7,7 @@ import img_h5 from '../img/twitch logo.png'
 import img_h6 from '../img/instagram-square logo.png'
 
 function Heder({image}){
-    return(<div className="heder flex">
+    return(<div className="heder flexr">
        <img className="img-heder0" src={logo}></img>
         <img className="img-heder2" src={img_h1}></img>
         <img className="img-heder1" src={img_h2}></img>
@@ -15,7 +15,7 @@ function Heder({image}){
         <img className="img-heder1" src={img_h4}></img>
         <img className="img-heder1" src={img_h5}></img>
         <img className="img-heder1" src={img_h6}></img>
-    </div>)
-}
+        </div>)}
+
 
 export default Heder;

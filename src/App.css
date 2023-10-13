@@ -1,12 +1,18 @@
-.flex{
+.flexr{
   display: flex;
   flex-direction: row;
+}
+
+.flexc{
+  display: flex;
+  flex-direction: column;
 }
 
 .heder{
   background-image: url("img/11.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 1000px;
 }
 
 .img-heder0{
@@ -31,4 +37,49 @@
   height: 3%;
   margin-left: 30%;
   margin-top: 2%;
+}
+
+.h2-tiap1{
+  font-size: 62px;
+  margin-top: 3%;
+  margin-left: 13%;
+}
+
+.p-tiap1{
+  margin-left: 13%;
+  margin-top: 1%;
+  width: 952px;
+  font-size: 18px;
+}
+
+.img1-tiap1{
+  margin-left: 13%;
+  margin-top: 4%;
+}
+
+.img1-tiap1{
+  margin-left: 13%;
+  margin-top: 2%;
+}
+
+.img1-tiap1{
+  margin-left: 53%;
+  margin-top: 10%;
+  width: 460px;
+}
+
+.img2-tiap1{
+  margin-left: 53%;
+  margin-top: 6%;
+  width: 460px;
+}
+
+.img3-tiap1{
+  margin-top: 5%;
+  margin-left: 50%;
+  width: 788px;
+}
+
+.g{
+  background-image: ("img/g.png");
 }
