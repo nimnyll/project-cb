@@ -83,3 +83,46 @@
 .g{
   background-image: ("img/g.png");
 }
+
+.tiap2{
+  background-color: #000;
+}
+
+.inp-tiap2{
+  background-color: #000;
+  color: blueviolet;
+  border: none;
+  border-bottom: 1px solid #777;
+  margin-top: 20%;
+  width: 300px;
+}
+
+.inp-f{
+  background-color: #000;
+  border: none;
+}
+
+.div-y{
+  background-image:url("img/Layer\ 5.png") ;
+}
+
+.div-y1{
+  background-image:url("img/Layer\ 6.png") ;
+}
+
+.img-y{
+  width: 294px;
+  height: 351px;
+  margin-top: 25px;
+  margin-left: 164px;
+  margin-bottom: 25px;
+  z-index: 1;
+}
+
+.img-y1{
+  width: 294px;
+  height: 351px;
+  margin-top: 24px;
+  margin-left: 164px;
+  margin-bottom: 84px;
+}
