@@ -1,25 +1,44 @@
-import img1 from '../img/Layer 1.png';
-import img2 from '../img/Playstation-5-games-console-transparent-background-png-image.png';
-import img3 from '../img/Layer 6.png';
-import img4 from '../img/Layer 5.png';
+import chekt from '../img/Check.png'
+import ps from '../img/Layer 1.png'
+import gy from '../img/Layer 5.png'
+import ps1 from '../img/ps2.png'
+import gb from '../img/Layer 6.png'
 
 function Tiap2 ({image}){
     return(
-        <div className="tiap2 flexr">
+        <div className="tiap2">
             <div className="flexr">
-                <div className="divt2-1 flexc">
-                    <input type="text" placeholder="Как тебя зовут?" className="inp-tiap2"/>
-                    <input className="inp-tiap2" type="emeil" placeholder="Твой е-mail"/>
-                    <input type="file" className="inp-f"/>
+                <div className="ax"><p className="ax-p">акция</p></div>
+                <h2 className="h2-tiap2">Играй и выигрывай!</h2>
+            </div>
+            <p className="p-tiap2">Играй в 
+                <span className="p-b"> Cyberpunk 2077</span>    
+                 и получи возможность выиграть консоль 
+                 <span className="p-b"> Xbox Series X</span> или 
+                 <span className="p-b"> Sony PlayStation 5!</span> Заполни форму ниже и приложи
+                  скриншот о покупке игры. Итоги розыгрыша
+                  будут подведены 1 февраля. Удачи! ;)</p>
+            <div className="flexr tiap21">
+                <div className="tiap22">
+                    <input className="input-tiap2" placeholder="Как тебя зовут?"></input>
+                    <input className="input-tiap21" placeholder="Твой е-mail"></input>
+                    <div className="div-b">
+                        <input className="a-tiap2" placeholder="Прикрепить скриншот"></input>
+                        <p className="p-tiap21">.png / .jpg / .pdf</p>
+                    </div>
+                    <button className="buton-tiap2">Отправить</button>
+                    <article className="art-tiap2 flexr">
+                        <img className="chekt" src={chekt}></img>
+                        <p className="p-chekt">Согласен на обработку персональных данных</p>
+                    </article>
                 </div>
-                <img className="img-y" src={img1}></img>
-                <img className="img-y1" src={img2}></img>
-                <img className="img-y2" src={img3}></img>
-                <img className="img-y3" src={img4}></img>
+                <img className="ps" src={ps}></img>
+                <img className="gy" src={gy}></img>
+                <img className="ps1" src={ps1}></img>
+                <img className="gb" src={gb}></img>
             </div>
         </div>
-)}
-
-
+    )
+}
 
 export default Tiap2;
