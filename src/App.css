@@ -12,12 +12,18 @@
   color: #52BEDC;
 }
 
-
+.h2-tiap1{
+  font-size: 62px;
+  margin-top: 3%;
+  margin-left: 13%;
+  width: 620px;
+}
 .heder{
   background-image: url("img/11.png");
-  background-size: 100%;
   background-repeat: no-repeat;
-  
+  background-size: 100%;
+  height: 1000px;
+  padding-bottom: 2.7%;
 }
 
 .img-heder0{
@@ -25,6 +31,8 @@
   margin-left: 15%;
   width: 13%;
   height: 6%;
+  min-width: 25px;
+  min-height: 25px;
 }
 
 .s-m{
@@ -44,11 +52,7 @@
   margin-top: 2%;
 }
 
-.h2-tiap1{
-  font-size: 62px;
-  margin-top: 3%;
-  margin-left: 13%;
-}
+
 
 .p-tiap1{
   margin-left: 13%;
@@ -56,6 +60,16 @@
   width: 952px;
   font-size: 18px;
 }
+
+.h2-block{
+  color: #000;
+  font-size: 62px;
+  width: 90%;
+  padding-left: 7%;
+  padding-top: 5%;
+  min-width: 400px;
+}
+
 
 .img1-tiap1{
   margin-left: 13%;
@@ -94,33 +108,37 @@
   width:100%;
 }
 
+
+
+  
+
 .block{
-  background: #F8F200;;
-  width: 624px;
+  background: #F8F200;
+  height: 40%;
+  width: 30%;
   background: linear-gradient(135deg, transparent 35px, #F8F200 0) top left,
   linear-gradient(-45deg, transparent 35px, #F8F200 0) bottom right;
   background-size: 50%, 50%;
   background-repeat: no-repeat;
   margin-left: 47%;
-  margin-top: 24%;
+  margin-top: 27.6%;
+  max-width: 624px;
+  min-width: 320px;
+  min-height: 207px;
+  max-height: 369px;
 }
 
-.h2-block{
-  color: #000;
-  font-size: 62px;
-  width: 530px;
-  padding-left: 7%;
-  padding-top: 5%;
-}
+
 
 .buton-block{
   color: #F8F200;
   font-size: 24px;
   padding: 19px 50px;
   background: #000;
-  width: 272px;
+  width: 44%;
   margin-left: 7%;
   margin-bottom: 10%;
+  min-width: 272px;
 }
 
 .tiap2{
@@ -433,4 +451,54 @@
 
 .tiap43{
   padding-bottom: 3%;
+}
+
+@media (max-width: 1024px){
+  .heder{
+    background-image: url("img/12.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    padding-bottom: 1.7%;
+  }
+
+  .block{
+    background: #F8F200;
+    height: 37%;
+    width: 50%;
+    background: linear-gradient(135deg, transparent 35px, #F8F200 0) top left,
+    linear-gradient(-45deg, transparent 35px, #F8F200 0) bottom right;
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    margin-left: 47%;
+    margin-top: 48.7%;
+    padding-bottom: 4%;
+    max-width: 624px;
+    min-width: 320px;
+    min-height: 207px;
+    max-height: 369px;
+  }
+
+  .img-heder0{
+    margin-top: 1.8%;
+    margin-left: 15%;
+    width: 295px;
+    height: 73.5;
+    min-width: 25px;
+    min-height: 25px;
+   }
+   
+   .h2-tiap1{
+  font-size: 62px;
+  margin-top: 1%;
+  margin-left: 10%;
+  width: 620px;
+}
+
+.p-tiap1{
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 788px;
+  font-size: 18px;
+}
 }
