@@ -453,6 +453,18 @@
   padding-bottom: 3%;
 }
 
+.polit{
+  background-color: #000;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
+.polit-h2{
+  color: #F8F200;
+  font-size: 24px;
+}
+
 @media (max-width: 1024px){
   .heder{
     background-image: url("img/12.png");
@@ -493,12 +505,36 @@
   margin-top: 1%;
   margin-left: 10%;
   width: 620px;
-}
+  }
 
-.p-tiap1{
-  margin-left: 10%;
-  margin-top: 1%;
-  width: 788px;
-  font-size: 18px;
-}
+  .p-tiap1{
+   margin-left: 10%;
+   margin-top: 1%;
+   width: 788px;
+   font-size: 18px;
+  }
+
+  .img1-tiap1{
+    margin-left: 5%;
+    width: 345px;
+  }
+
+  .img2-tiap1{
+    margin-left: 5%;
+    width: 345px;
+  }
+
+  .img3-tiap1{
+    margin-left: 9%;
+    width: 600px;
+  }
+
+  .G{
+    width: 1024px;
+    height: 70px;
+    background-image: url("img/g.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
 }
